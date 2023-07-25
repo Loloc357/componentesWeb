@@ -1,0 +1,42 @@
+.bienvenida {
+  display: flex;
+  flex-direction: column;
+  background-color: #192130;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+}
+
+.bienvenida--content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.5;
+  align-items: center;
+  padding: 40px 70px;
+  justify-content: space-evenly;
+}
+@media (min-width: 500px) {
+  .bienvenida--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+}
+.bienvenida--saludo {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+}
+.bienvenida--saludo2 {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  color: #00adb5;
+}
+.bienvenida--imagen {
+  justify-content: center;
+  height: 210px;
+  width: 220px;
+  background-blend-mode: color-dodge;
+}
